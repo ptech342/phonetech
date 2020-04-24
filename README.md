@@ -30,7 +30,7 @@ See dev_log file add to it !
   # All names, including the remote name and branch, are case-sensitive
 
   # if you have not already done so, add a named remote to the source repo
-  git remote add upstream https://github.com/CodeToJoyForever/BeInTheKnow_backend.git
+  git remote add upstream https://github.com/ptech342/phonetech.git
 
 
   # get the info from the source repo
