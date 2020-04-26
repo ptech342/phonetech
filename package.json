@@ -1,0 +1,32 @@
+{
+  "name": "phonetech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbs4ever/phonetech.git"
+  },
+  "author": "sim && avigail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbs4ever/phonetech/issues"
+  },
+  "homepage": "https://github.com/gbs4ever/phonetech#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
